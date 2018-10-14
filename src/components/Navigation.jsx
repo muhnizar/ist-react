@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Appbar from './Appbar'
-
+import Drawer from './MainDrawer.jsx'
 export default class extends Component {
     constructor(props) {
         super(props);
@@ -11,6 +11,7 @@ export default class extends Component {
         return (
             <header>
                 <Appbar/>              
+                <Drawer/>  
             </header>
         );
     }
